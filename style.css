@@ -242,12 +242,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: translate(100%);
 
     opacity: 0;
     transition: all 0.5s ease-in;
     pointer-events: none;
     visibility: hidden;
-    transform: translate(100%);
   }
 
   .nav-open .main-nav {
@@ -267,11 +267,11 @@ body {
     gap: 60px;
   }
 
-  .icon-mob-nav[name="close-outline"] {
+  .nav-open .icon-mob-nav[name="close-outline"] {
     display: block;
   }
 
-  .icon-mob-nav[name="menu-outline"] {
+  .nav-open .icon-mob-nav[name="menu-outline"] {
     display: none;
   }
 }
