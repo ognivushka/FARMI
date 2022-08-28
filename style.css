@@ -414,22 +414,22 @@ body {
   }
   .hero_button {
     padding: 20px 0px 10px 0px;
+    margin-bottom: 10px;
   }
 
   .hero_img {
-    margin: 20px 5px 0px 5px;
-    position: relative;
-    overflow: hidden;
-    top: -40px;
-    left: 0;
-    right: 0;
-    bottom: 0px;
-    width: 400px;
-    height: 400px;
+    display: none;
   }
 
-  .hero_img_man {
-    position: absolute;
+  .hero {
+    background-image: url(img/man.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+
+  .section_hero_content {
+    background-color: #0a312ca4;
   }
 }
 
