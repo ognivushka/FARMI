@@ -1,6 +1,7 @@
 # FARMI
 *******
 [link to farmy](https://ognivushka.github.io/FARMI/)
+
 how its looks like:
 
 ![furmi-1](https://user-images.githubusercontent.com/108069895/185616914-0032a501-09aa-4a85-9bac-8ff6d44210c3.PNG)
